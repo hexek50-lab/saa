@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دوري ابطال اوربا</title>
+  <style>
+    body {
+      font-family: 'Tahoma', Arial, sans-serif;
+      background-color: #855050;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .matches-container {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    /* صورة دوري الأبطال */
+    .ucl-logo {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: rgb(3, 24, 214);
+      border-bottom: 2px solid #FFD400;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    .match-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      transition: transform 0.2s;
+    }
+
+    .match-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .team-name {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 18px;
+      width: 35%;
+      color: #2731b6;
+      gap: 8px;
+    }
+
+    .team-name img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .match-details {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #555;
+    }
+
+    .time {
+      font-size: 18px;
+      font-weight: bold;
+      color: #da6b38;
+      margin-bottom: 5px;
+    }
+
+    .score {
+      font-size: 18px;
+      font-weight: bold;
+      color: #e70b0b;
+    }
+
+    .divider {
+      color: #888;
+    }
+
+    .match-card:nth-child(even) {
+      background-color: #fff9f9;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="matches-container">
+    
+    <h1><strong>دوري ابطال اوربا</strong></h1>
+
+    <!-- مثال على مباراة واحدة -->
+    <div class="match-card">
+      <div class="team-name">
+        <img src="brugge.png" alt="">
+        كلوب بروج
+      </div>
+      <div class="match-details">
+        <span class="time">7:45 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="atalanta.png" alt="">
+        أتلانتا
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="realmadrid.png" alt="">
+        ريال مدريد
+      </div>
+      <div class="match-details">
+        <span class="score">7-45</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="kairat.png" alt="">
+        قايرات الماته
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="atletico.png" alt="">
+        اتلتكو مدريد
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="frankfurt.png" alt="">
+        فرانكفورت
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="tottenham.png" alt="">
+        توتنهام
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="pono.png" alt="">
+        بونو
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="benfica.png" alt="">
+        بنفيكا
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="chelsea.png" alt="">
+        تشيلسي
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="liverpool.png" alt="">
+        ليفربول
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="galatasaray.png" alt="">
+        غلطة سراي
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="inter.png" alt="">
+        انتر
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="slavia.png" alt="">
+        سلافيابراغ
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="ajax.png" alt="">
+        أياكس
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="marseille.png" alt="">
+        مارسيليا
+      </div>
+      <a href="see.html">See</a>
+    </div>
+
+    <div class="match-card">
+      <div class="team-name">
+        <img src="bayern.png" alt="">
+        بارين ميونخ
+      </div>
+      <div class="match-details">
+        <span class="time">10:00 م</span>
+        <span class="divider">اليوم</span>
+      </div>
+      <div class="team-name">
+        <img src="pafos.png" alt="">
+        بافوس
+      </div>
+      <a href="see.html">See</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
